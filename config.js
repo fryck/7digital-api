@@ -1,6 +1,6 @@
 'use strict';
 
-var path = require('path');
+var path = require('path-browserify');
 
 function envOrDefault(key, def) {
 	return process.env[key] || def;

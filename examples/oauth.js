@@ -1,5 +1,5 @@
 // Module dependencies
-var util = require('util');
+var util = require('node-util');
 var step = require('step');
 var readline = require('readline');
 // Create a readline interface for prompting the user

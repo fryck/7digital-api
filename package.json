@@ -24,6 +24,7 @@
   "main": "index.js",
   "dependencies": {
     "lodash": "~3.10.1",
+    "node-util": "0.0.1",
     "oauth": "0.9.14",
     "path-browserify": "0.0.0",
     "step": "~0.0.5",
