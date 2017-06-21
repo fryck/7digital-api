@@ -21,7 +21,7 @@
     "integration-test": "./node_modules/.bin/mocha --recursive -R spec test-integration/",
     "test": "./node_modules/.bin/mocha --recursive -R spec test/"
   },
-  "main": "index.js",
+  "main": "shim.js",
   "dependencies": {
     "browserify-fs": "^1.0.0",
     "lodash": "~3.10.1",
