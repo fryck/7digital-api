@@ -29,6 +29,7 @@
     "path-browserify": "0.0.0",
     "querystring-es3": "^0.2.1",
     "step": "~0.0.5",
+    "stream-http": "^2.7.2",
     "url-parse": "^1.1.9",
     "verror": "^1.6.0",
     "xml2js": "~0.4.3"
