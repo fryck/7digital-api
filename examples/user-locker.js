@@ -1,6 +1,6 @@
 // Module dependencies
 var async = require('async');
-var util = require('node-util');
+var util = require('util');
 var uuid = require('uuid');
 // Consumer key and secret
 // Replace these with your key
