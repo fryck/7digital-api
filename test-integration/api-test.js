@@ -1,6 +1,6 @@
 'use strict';
 
-var fs = require('fs');
+var fs = require('browserify-fs');
 var path = require('path-browserify');
 var assert = require('chai').assert;
 var _ = require('lodash');

@@ -1,7 +1,7 @@
 'use strict';
 
 var exec = require('child_process').exec;
-var fs = require('fs');
+var fs = require('browserify-fs');
 var path = require('path-browserify');
 var assert = require('chai').assert;
 var examples = fs.readdirSync(path.join(__dirname, '../examples/')).filter(function (file) {

@@ -23,6 +23,7 @@
   },
   "main": "index.js",
   "dependencies": {
+    "browserify-fs": "^1.0.0",
     "lodash": "~3.10.1",
     "node-util": "0.0.1",
     "oauth": "0.9.14",
