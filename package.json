@@ -23,15 +23,9 @@
   },
   "main": "shim.js",
   "dependencies": {
-    "browserify-fs": "^1.0.0",
     "lodash": "~3.10.1",
     "oauth": "0.9.14",
-    "path-browserify": "0.0.0",
-    "querystring-es3": "^0.2.1",
     "step": "~0.0.5",
-    "stream-http": "^2.7.2",
-    "url-parse": "^1.1.9",
-    "util": "^0.10.3",
     "verror": "^1.6.0",
     "xml2js": "~0.4.3"
   },

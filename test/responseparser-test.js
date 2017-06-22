@@ -2,8 +2,8 @@
 
 var assert = require('chai').assert;
 var parser = require('../lib/responseparser');
-var fs = require('browserify-fs');
-var path = require('path-browserify');
+var fs = require('fs');
+var path = require('path');
 var sinon = require('sinon');
 var ApiParseError = require('../lib/errors').ApiParseError;
 var ApiError = require('../lib/errors').ApiError;

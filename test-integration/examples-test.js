@@ -1,8 +1,8 @@
 'use strict';
 
 var exec = require('child_process').exec;
-var fs = require('browserify-fs');
-var path = require('path-browserify');
+var fs = require('fs');
+var path = require('path');
 var assert = require('chai').assert;
 var examples = fs.readdirSync(path.join(__dirname, '../examples/')).filter(function (file) {
 	return file !== 'oauth.js';
